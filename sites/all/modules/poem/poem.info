@@ -1,0 +1,3 @@
+name = Poem
+description = Provides a form to help you craft beautiful poetry
+core = 7.x
