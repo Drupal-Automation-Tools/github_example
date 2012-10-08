@@ -1,1 +1,6 @@
-Use 7.x-X.x or 6.x-X.x branch.
+Directory structure
+-------------------
+
+  docroot/                 <-- Drupal
+  docroot/sites/           <-- symlink to ../sites/
+  sites/
