@@ -38,11 +38,11 @@ These lessons assume:
 ### <a id="install" name="install">Install</a>
 
 1. Copy, or "clone", this repository:
-    git clone git://github.com/bryanhirsch/gw_example
+    git clone git://github.com/bryanhirsch/github_example
 1. Create a local sites directory that will be ignored by Git (note: if you're confused about where different files live in this repo, this is explained in the next section: <a href="#directory-structure">Overview of what's in this repository (typical Acquia Cloud directory structure)</a>)
-    cd path/to/gw_example
+    cd path/to/github_example
     cd sites
-    # Note: .gitignore (in the top-level directory of this repo) instructs Git to ignore sites/gw_example.localhost.
+    # Note: .gitignore (in the top-level directory of this repo) instructs Git to ignore sites/example.localhost.
     cp -r default example.localhost
     cd example.localhost
     cp default.settings.php settings.php
@@ -50,7 +50,7 @@ These lessons assume:
     # Open /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
     # Add this:
     <VirtualHost *>
-      DocumentRoot "/Volumes/Shared/home/bryanhirsch/www/gw_example/docroot"
+      DocumentRoot "/Volumes/Shared/home/bryanhirsch/www/github_example/docroot"
       ServerName example.localhost
     </VirtualHost>
 
@@ -71,9 +71,9 @@ Directory structure
 
   docroot/                   <-- Drupal
   docroot/sites/             <-- symlink to ../sites/
-  docroot/profiles/gw_example/  <-- simlink to ../../example
+  docroot/profiles/github_example/  <-- simlink to ../../github_example
   sites/
-  gw_example/
+  github_example/
 
 
 ### <a id="acquia-cloud-dev" name="acquia-cloud-dev">Testing your work in an Acquia Cloud development environment</a>
