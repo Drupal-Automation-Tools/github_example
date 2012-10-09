@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function example_install() {
+function gw_exampleinstall() {
   _standard_install();
 
   // Set /poem as Example site's front page.

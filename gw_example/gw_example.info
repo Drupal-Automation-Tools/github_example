@@ -1,5 +1,5 @@
-name = Example
-description = Example site to be used for ladder lessons.
+name = GitHub Workflow Example
+description = Example Drupal installation profile lessons on GitHub/Acquia Cloud workflows.
 version = VERSION
 core = 7.x
 
