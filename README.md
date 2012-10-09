@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-#### <a href="#overview">Overview</a>
+#### <a href="#overview">Overview: How to use this repo</a>
 #### <a href="#prerequisites">Prerequisites/Assumptions</a>
 #### <a href="#install">Install</a>
 #### <a href="#directory-structure">Overview of what's in this repository (typical Acquia Cloud directory structure)</a>
