@@ -38,8 +38,10 @@ These lessons assume:
 ### <a id="install" name="install">Install</a>
 
 1. Copy, or "clone", this repository:
+
         git clone git://github.com/bryanhirsch/github_example
 1. Create a local sites directory that will be ignored by Git (note: if you're confused about where different files live in this repo, this is explained in the next section: <a href="#directory-structure">Overview of what's in this repository (typical Acquia Cloud directory structure)</a>)
+
         cd path/to/github_example
         cd sites
         # Note: .gitignore (in the top-level directory of this repo) instructs Git to ignore sites/example.localhost.
@@ -69,11 +71,11 @@ Once the site is installed, the home page should have a simple poem-making form.
 Directory structure
 -------------------
 
-  docroot/                          <-- Drupal
-  docroot/sites/                    <-- symlink to ../sites/
-  docroot/profiles/github_example/  <-- simlink to ../../github_example
-  sites/
-  github_example/
+    docroot/                          <-- Drupal
+    docroot/sites/                    <-- symlink to ../sites/
+    docroot/profiles/github_example/  <-- simlink to ../../github_example
+    sites/
+    github_example/
 
 
 ### <a id="acquia-cloud-dev" name="acquia-cloud-dev">Testing your work in an Acquia Cloud development environment</a>
