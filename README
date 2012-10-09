@@ -1,6 +1,0 @@
-Directory structure
--------------------
-
-  docroot/                 <-- Drupal
-  docroot/sites/           <-- symlink to ../sites/
-  sites/
