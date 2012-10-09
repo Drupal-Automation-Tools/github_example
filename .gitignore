@@ -1,0 +1,5 @@
+files
+sites/default/settings.php
+.DS_Store
+sites/example.localhost
+.*.sw*
